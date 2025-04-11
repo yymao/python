@@ -1,0 +1,22 @@
+[project]
+name = "7730"
+version = "2025.04.11"
+requires-python = ">=3.13"
+authors = [
+    { name = "Yao-Yuan Mao" },
+]
+
+dependencies = [
+    "corner>=2.2",
+    "emcee>=3.1",
+    "jupyter-book>=1.0.3",
+    "minimal",
+    "nbconvert>=7.16",
+    "packaging>=24.2",
+    "scikit-learn>=1.6",
+    "tqdm[notebook]>=4.67",
+]
+
+[tool.uv.sources]
+minimal = { path = "../minimal" }
+

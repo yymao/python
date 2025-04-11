@@ -1,0 +1,49 @@
+[project]
+name = "core"
+description = "Yao's Core Python environment"
+authors = [
+    {name = "Yao-Yuan Mao"},
+]
+version = "2025.04.11"
+requires-python = ">=3.13"
+dependencies = [
+    "abundancematching>=0.3",
+    "artpop>=0.1",
+    "astro-datalab>=2",
+    "astroplan>=0.10",
+    "astropy>=7",
+    "astroquery>=0.4",
+    "bottleneck>=1",
+    "colossus>=1",
+    "corner>=2",
+    "easyquery>=0.4",
+    "emcee>=3",
+    "fast-histogram>=0.14",
+    "fast3tree>=0.4",
+    "fofcatalogmatching>=0.1",
+    "halotools>=0.9",
+    "healpy>=1",
+    "helpers",
+    "minimal",
+    "myplotstyle",
+    "nbconvert>=7",
+    "palettable>=3",
+    "pillow>=11",
+    "pyarrow>=18",
+    "pycurl>=7.45.4",
+    "python-snappy>=0.7",
+    "saga",
+    "scikit-image>=0.24",
+    "scikit-learn>=1",
+    "sep>=1",
+    "statsmodels>=0.14",
+    "tables>=3",
+    "tqdm>=4",
+]
+
+[tool.uv.sources]
+minimal = { path = "../minimal" }
+myplotstyle = { git = "https://github.com/yymao/myplotstyle.git", rev = "main" }
+helpers = { git = "https://bitbucket.org/yymao/helpers.git", rev = "master" }
+saga = { git = "https://github.com/sagasurvey/saga.git", rev = "master" }
+
