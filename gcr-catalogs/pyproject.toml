@@ -1,0 +1,15 @@
+[project]
+name = "gcr-catalogs"
+authors = [
+    {name = "Yao-Yuan Mao"},
+]
+version = "2025.04.11"
+requires-python = ">=3.13"
+dependencies = [
+    "lsstdesc-gcr-catalogs[full]",
+    "minimal",
+]
+
+[tool.uv.sources]
+minimal = { path = "../minimal" }
+
