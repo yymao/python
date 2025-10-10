@@ -16,6 +16,7 @@ dependencies = [
     "autograd[scipy]>=1.8",
     "bottleneck>=1",
     "colossus>=1",
+    "conditionalgmm",
     "corner>=2",
     "easyquery>=0.4",
     "emcee>=3",
@@ -47,4 +48,5 @@ minimal = { path = "../minimal" }
 myplotstyle = { git = "https://github.com/yymao/myplotstyle.git", rev = "main" }
 helpers = { git = "https://bitbucket.org/yymao/helpers.git", rev = "master" }
 saga = { git = "https://github.com/sagasurvey/saga.git", rev = "master" }
+conditionalgmm = { git = "https://github.com/tmcclintock/ConditionalGMM", rev = "main" }
 
