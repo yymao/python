@@ -4,7 +4,7 @@ description = "Yao's Core Python environment"
 authors = [
     {name = "Yao-Yuan Mao"},
 ]
-version = "2025.04.11"
+version = "2025.10.09"
 requires-python = ">=3.13"
 dependencies = [
     "abundancematching>=0.3",
@@ -13,6 +13,7 @@ dependencies = [
     "astroplan>=0.10",
     "astropy>=7",
     "astroquery>=0.4",
+    "autograd[scipy]>=1.8",
     "bottleneck>=1",
     "colossus>=1",
     "corner>=2",
@@ -30,7 +31,7 @@ dependencies = [
     "palettable>=3",
     "pillow>=11",
     "pyarrow>=18",
-    "pycurl>=7.45.4",
+    "pycurl>=7.45",
     "python-snappy>=0.7",
     "saga",
     "scikit-image>=0.24",
