@@ -25,7 +25,6 @@ dependencies = [
     "fofcatalogmatching>=0.1",
     "halotools>=0.9",
     "healpy>=1",
-    "helpers",
     "minimal",
     "myplotstyle",
     "nbconvert>=7",
@@ -41,12 +40,12 @@ dependencies = [
     "statsmodels>=0.14",
     "tables>=3",
     "tqdm>=4",
+    "yymao-helpers>=1",
 ]
 
 [tool.uv.sources]
 minimal = { path = "../minimal" }
 myplotstyle = { git = "https://github.com/yymao/myplotstyle.git", rev = "main" }
-helpers = { git = "https://bitbucket.org/yymao/helpers.git", rev = "master" }
 saga = { git = "https://github.com/sagasurvey/saga.git", rev = "master" }
 conditionalgmm = { git = "https://github.com/tmcclintock/ConditionalGMM", rev = "main" }
 
