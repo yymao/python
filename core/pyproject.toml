@@ -28,6 +28,7 @@ dependencies = [
     "minimal",
     "myplotstyle",
     "nbconvert>=7",
+    "opencv-python>=4",
     "palettable>=3",
     "pillow>=11",
     "pyarrow>=18",
