@@ -4,7 +4,7 @@ description = "Yao's Core Python environment"
 authors = [
     {name = "Yao-Yuan Mao"},
 ]
-version = "2025.10.28"
+version = "2026.01.12"
 requires-python = ">=3.13"
 dependencies = [
     "abundancematching>=0.3",
@@ -28,7 +28,6 @@ dependencies = [
     "minimal",
     "myplotstyle",
     "nbconvert>=7",
-    "opencv-python>=4",
     "palettable>=3",
     "pillow>=11",
     "pyarrow>=18",
@@ -40,7 +39,7 @@ dependencies = [
     "sep>=1",
     "statsmodels>=0.14",
     "tables>=3",
-    "tqdm>=4",
+    "tqdm[notebook]>=4",
     "yymao-helpers>=1",
 ]
 
