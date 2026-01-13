@@ -16,7 +16,7 @@ dependencies = [
     "autograd[scipy]>=1.8",
     "bottleneck>=1",
     "colossus>=1",
-    "conditionalgmm>=0.1",
+    "conditionalgmm",
     "corner>=2",
     "easyquery>=0.4",
     "emcee>=3",
@@ -25,15 +25,15 @@ dependencies = [
     "fofcatalogmatching>=0.1",
     "halotools>=0.9",
     "healpy>=1",
-    "minimal>=2025",
-    "myplotstyle>=0.1",
+    "minimal",
+    "myplotstyle",
     "nbconvert>=7",
     "palettable>=3",
     "pillow>=11",
     "pyarrow>=18",
     "pycurl>=7.45",
     "python-snappy>=0.7",
-    "saga>=3",
+    "saga",
     "scikit-image>=0.24",
     "scikit-learn>=1",
     "sep>=1",
@@ -44,7 +44,7 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-minimal = { path = "../minimal" }
+minimal = { path = "../minimal", package = false }
 myplotstyle = { git = "https://github.com/yymao/myplotstyle.git", rev = "main" }
 saga = { git = "https://github.com/sagasurvey/saga.git", rev = "master" }
 conditionalgmm = { git = "https://github.com/tmcclintock/ConditionalGMM", rev = "main" }

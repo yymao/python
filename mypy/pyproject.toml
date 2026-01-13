@@ -3,7 +3,7 @@ name = "mypy"
 version = "2026.01.12"
 requires-python = ">=3.13"
 dependencies = [
-    "core>=2026",
+    "core",
     "adstex>=0.6",
     "beautifulsoup4>=4",
     "fuzzyname>=0.2",
@@ -15,4 +15,4 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-core = { path = "../core" }
+core = { path = "../core", package = false }
