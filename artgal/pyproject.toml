@@ -1,0 +1,13 @@
+[project]
+name = "artgal"
+version = "2026.01.12"
+requires-python = ">=3.13"
+dependencies = [
+    "core",
+    "opencv-python>=4.11",
+    "torch>=2.8",
+    "stpsf>=2.2",
+]
+
+[tool.uv.sources]
+core = { path = "../core" }
