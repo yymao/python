@@ -3,7 +3,7 @@ name = "mypy"
 version = "2026.01.12"
 requires-python = ">=3.13"
 dependencies = [
-    "core",
+    "core>=2026",
     "adstex>=0.6",
     "beautifulsoup4>=4",
     "fuzzyname>=0.2",

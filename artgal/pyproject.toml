@@ -3,9 +3,10 @@ name = "artgal"
 version = "2026.01.12"
 requires-python = ">=3.13"
 dependencies = [
-    "core",
+    "core>=2026",
     "opencv-python>=4.11",
-    "torch>=2.8",
+    "torch>=2.9",
+    "torchvision>=0.24",
     "stpsf>=2.2",
 ]
 
