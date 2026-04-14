@@ -32,6 +32,3 @@ pytorch-triton-xpu = [
 name = "pytorch-xpu"
 url = "https://download.pytorch.org/whl/xpu"
 explicit = true
-
-[tool.uv.sources]
-core = { path = "../core", package = false }
