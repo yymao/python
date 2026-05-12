@@ -13,6 +13,7 @@ dependencies = [
     "twine>=6",
     "torch>=2.11",
     "torchvision>=0.26",
+    "torchmetrics>=1.9",
 ]
 
 [tool.uv.sources]
