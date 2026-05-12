@@ -1,16 +1,13 @@
 [project]
-name = "mypy"
+name = "nersc"
 version = "2026.05.12"
 requires-python = ">=3.14"
 dependencies = [
     "core",
-    "adstex>=0.6",
-    "beautifulsoup4>=4",
-    "fuzzyname>=0.2",
-    "lxml>=6",
-    "setuptools>=80",
-    "sympy>=1.14",
-    "twine>=6",
+    "torch>=2.11",
+    "torchvision>=0.26",
+    "torchmetrics>=1.9",
+    "lsstdesc-gcr-catalogs[full]",
 ]
 
 [tool.uv.sources]
